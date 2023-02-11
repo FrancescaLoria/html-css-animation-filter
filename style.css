@@ -102,16 +102,57 @@
 }
 /* /ex- 6,7,8 */
 
+/* ex-9 */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+
+.ex-9-img:hover{
+    filter: grayscale(1) blur(2px);
+    border-radius: 25px;
+    transform: scale(1.5);
+}
+/* /ex - 9 */
+
+/* ex-10 */
 .ex-10-icon {
     font-size: 60px;
+    animation: spin 1s linear infinite;
 }
+
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+/* /ex-10 */
+
+/* ex-11 */
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: spin 3s linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0)
+    }
+    85%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0);
+    }   
+}
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
