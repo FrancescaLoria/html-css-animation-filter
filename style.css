@@ -2,7 +2,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid red;
-    transition: 3s;
+    transition: background-color 2s;
     
 }
 
@@ -15,7 +15,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: 5s;
+    transition: width 5s;
 }
 
 .ex-2-square:hover{
@@ -26,11 +26,11 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: 3s;
+    transition: border-radius 2s;
 }
 
 .ex-3-square:hover{
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 
